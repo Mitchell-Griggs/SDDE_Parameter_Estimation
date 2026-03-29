@@ -41,7 +41,7 @@ Forward simulations using the learned model reproduce the qualitative behaviour 
 The figure below shows parameter recovery and model validation.
 
 ### Parameter recovery and model validation
-![SDDE parameter estimation](SDDE_Parameter_Estimation_100.png)
+![SDDE parameter estimation](SDDE_Parameter_Estimation_100-eps-converted-to.pdf)
 
 ---
 
