@@ -63,5 +63,5 @@ The same principles apply broadly to problems involving noisy time-series data, 
 ---
 
 ## Files
-- `SDDE_Parameter_Estimation.m` — main simulation, inference, and validation script  
-- `SDDE_Parameter_Estimation_100.png` — visual comparison of true vs learned dynamics
+- `![SDDE_Parameter_Estimation](SDDE_Parameter_Estimation.m)` — main simulation, inference, and validation script  
+- `![Fitted_Parameters](SDDE_Parameter_Estimation_100-eps-converted-to.pdf)` — visual comparison of true vs learned dynamics
