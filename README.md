@@ -1,5 +1,8 @@
-# SDDE_Parameter_Estimation
+# Parameter Estimation for a Stochastic Delay-Differential Equation (SDDE)
+
 Simulation-based parameter estimation for stochastic delay-differential equations (SDDEs), recovering drift and volatility from noisy sample paths.
+
+---
 
 ## Overview
 This project demonstrates simulation-based recovery of drift and volatility parameters for a stochastic delay-differential equation (SDDE) from noisy sample paths.
@@ -8,7 +11,7 @@ The objective is to infer latent dynamics from stochastic time-series data and v
 
 We consider the SDDE
 \[
-dX(t) = \bigl(\mu_0 X(t) + \mu_1 X(t-\tau)\bigr)\,dt + \sigma\,dW(t),
+dX(t) = \bigl(\mu_0 X(t) + \mu_1 X(t-\tau)\bigr)\,\mathrm{d}t + \sigma\,\mathrm{d}W(t),
 \]
 with known delay \( \tau \) and unknown parameters \( \mu_0, \mu_1, \sigma \).
 
@@ -40,8 +43,14 @@ Forward simulations using the learned model reproduce the qualitative behaviour 
 
 The figure below shows parameter recovery and model validation.
 
-### Parameter recovery and model validation
-![SDDE parameter estimation](SDDE_Parameter_Estimation_100-eps-converted-to.pdf)
+---
+
+## Parameter recovery and model validation
+
+> **Note:** GitHub does not render EPS or PDF files inline.  
+> The figure below should be viewed by downloading the PDF.
+
+[Download parameter-estimation figure](SDDE_Parameter_Estimation_100-eps-converted-to.pdf)
 
 ---
 
@@ -63,5 +72,5 @@ The same principles apply broadly to problems involving noisy time-series data, 
 ---
 
 ## Files
-- `![SDDE_Parameter_Estimation](SDDE_Parameter_Estimation.m)` — main simulation, inference, and validation script  
-- `![Fitted_Parameters](SDDE_Parameter_Estimation_100-eps-converted-to.pdf)` — visual comparison of true vs learned dynamics
+- `SDDE_Parameter_Estimation.m` — main simulation, inference, and validation script  
+- `SDDE_Parameter_Estimation_100-eps-converted-to.pdf` — parameter recovery and validation figure
